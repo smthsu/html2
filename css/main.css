@@ -1,0 +1,141 @@
+@import url('common.css');
+
+
+/*header*/
+#header {
+    padding: 70px 0;
+}
+
+#header div {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+#header div:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#header div h1 {
+    float: left;
+}
+
+#header div h1 a {}
+
+#header div h1 a img {}
+
+#header div ul {
+    float: right;
+    text-transform: uppercase;
+}
+
+#header div ul li {
+    float: left;
+}
+
+#header div ul li a {
+    padding: 10px 40px;
+    display: inline-block;
+}
+
+
+/*container*/
+.blog-list {}
+
+.blog-list ul {
+    overflow: hidden;
+}
+
+.blog-list ul li {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.blog-list ul li:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.blog-list ul li img {
+    width: 100%;
+}
+
+
+/*newsletter*/
+.newsletter {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.newsletter h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+.newsletter p {
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    margin-top: 80px;
+    padding-bottom: 10px;
+
+}
+
+.newsletter p input {
+    background: none;
+    border: none;
+    width: 360px;
+    outline-style: none;
+}
+
+.newsletter p input[type='submit'] {
+    font-size: 0;
+    width: 32px;
+    height: 17px;
+    background: url('../img/btn_email.png') no-repeat;
+}
+
+/*footer*/
+#footer {
+    background: #f0f0f0;
+    padding: 40px 0;
+}
+
+#footer div {
+    position: relative;
+}
+
+#footer div a {
+    text-transform: capitalize;
+    padding-right: 20px;
+}
+
+
+#footer div p {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+#footer div p a {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+    background: url('../img/ic_sns.png') no-repeat;
+}
+#footer div p a:nth-of-type(1) {
+    background-position: 6px 0;
+
+}
+#footer div p a:nth-of-type(2) {
+    background-position: -23px 0;
+
+}
+
+#footer div p a:nth-of-type(3) {
+    background-position: -60px 0;
+
+}
