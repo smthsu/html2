@@ -1,0 +1,77 @@
+/*================f_03====================*/
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.layout {
+    height: 100%;
+}
+
+.layout .nav {
+    float: left;
+    width: 20%;
+    background: #222;
+
+}
+
+.layout .contents {
+    float: right;
+    width: 75%;
+    min-height: 400px;
+    background: #eee;
+}
+
+/*=========nav=========*/
+/*vw, vh  ->  반응형*/
+.layout .nav {
+    height: 100%;
+    padding: 40px;
+    width: calc(20% - 80px)
+}
+
+.layout .nav h1 {
+    color: #ddd;
+    padding: 40px 0;
+}
+
+
+.layout .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.layout .nav ul li {
+    border-bottom: 1px solid #555;
+
+}
+
+.layout .nav ul li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.layout .nav ul li a:hover {
+    background: #333;
+}
+
+/*=======contests=======*/
+.layout .contents { width: calc(75% - 80px); padding: 40px;}
+
+.layout .contents h2 {}
+
+.layout .contents ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.layout .contents ul li {width: 30%; display: inline-block; margin: 0 5px;}
+
+].layout .contents ul li img {width: 100%;}
